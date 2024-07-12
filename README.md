@@ -10,6 +10,10 @@ This bot is named after my dog, Roody, and was created due to me being away on a
 4. Allow for random selection for pre-existing pictures when no new picture is given
 5. Interaction for pictures
 
+## How it works
+1. Github Actions cron job, to run at 10am SGT, trigger telegram sendMessage
+2. 
+
 ## Plans
 - [ ] Bot has to be able to be added into a channel
 - [ ] Register users into different groups
