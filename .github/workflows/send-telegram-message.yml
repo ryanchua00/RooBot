@@ -18,10 +18,8 @@ jobs:
           -d chat_id=${{ env.TELEGRAM_CHAT_ID }} \
           -d text="Good Morning! Let's start the day with a Roody Update!" \
           -d reply_markup='{
-            "keyboard":[
-              [{"text":"Upload Photo"}],
-              [{"text":"Trigger Serverless Function"}]
-            ],
-            "one_time_keyboard":true,
-            "resize_keyboard":true
+            "inline_keyboard":[
+              [{"text":"Upload a Photo! 📷"}],
+              [{"text":"I'm busy. Pick-a-Poods! 🐕‍🦺"}]
+            ]
           }'
