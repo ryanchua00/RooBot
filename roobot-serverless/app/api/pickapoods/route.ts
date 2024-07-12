@@ -8,6 +8,6 @@ export function GET(request: Request) {
 
 export function POST(request: Request) {
     console.log("POST")
-    console.log(request);
+    console.log(request.body);
     return new Response(`Hello, received ${request.body}`);
 }
