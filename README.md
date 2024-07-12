@@ -1,6 +1,7 @@
 # RooBot 
 
 Roobot is a telegram bot that pings users for daily updates for your favourite pets!
+This bot is named after my dog, Roody, and was created due to me being away on an exchange. And at the request of my girlfriend.
 
 ## Aims
 1. Daily alert at preset timing to ask for new pictures
