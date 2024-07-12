@@ -20,6 +20,6 @@ jobs:
           -d reply_markup='{
             "inline_keyboard":[
               [{"text":"Upload a Photo! 📷"}],
-              [{"text":"I'm busy. Pick-a-Poods! 🐕‍🦺"}]
+              [{"text":"Pick-a-Poods! 🐕‍🦺"}]
             ]
           }'
