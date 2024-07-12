@@ -1,0 +1,16 @@
+name: Set RooBot Commands
+
+on:
+  workflow_dispatch: # This allows the workflow to be manually triggered
+
+jobs:
+  send-message:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set RooBot Commands
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        run: |
+          curl -s -X POST https://api.telegram.org/bot${{ env.TELEGRAM_BOT_TOKEN }}/setMyCommands \
+          -d commands=[{command='pick_a_poods', description='Randomly select a Poods🐕‍🦺'}] \
+          -d scope='default'
