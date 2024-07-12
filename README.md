@@ -24,3 +24,6 @@ This bot is named after my dog, Roody, and was created due to me being away on a
 - [ ] Bot's message every 10am SGT
 - [ ] Storage somewhere, local first then a place online
 
+### Notes
+1. Currently, webhook and GetUpdates endpoint only shows the command message, i.e
+> /pick_a_poods@RoodyUpdateBot
