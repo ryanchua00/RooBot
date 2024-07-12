@@ -17,3 +17,11 @@ jobs:
           curl -s -X POST https://api.telegram.org/bot${{ env.TELEGRAM_BOT_TOKEN }}/sendMessage \
           -d chat_id=${{ env.TELEGRAM_CHAT_ID }} \
           -d text="Good Morning! Let's start the day with a Roody Update!"
+          -d reply_markup='{
+            "keyboard":[
+              [{"text":"Upload Photo"}],
+              [{"text":"Trigger Serverless Function"}]
+            ],
+            "one_time_keyboard":true,
+            "resize_keyboard":true
+          }'

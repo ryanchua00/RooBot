@@ -15,6 +15,7 @@ This bot is named after my dog, Roody, and was created due to me being away on a
 2. 
 
 ## Plans
-- [ ] Bot has to be able to be added into a channel
+- [X] Bot added into a channel
+- [ ] Bot's message has options
 - [ ] Register users into different groups
 - [ ] Storage somewhere, local first then a place online
