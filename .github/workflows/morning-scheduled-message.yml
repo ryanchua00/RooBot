@@ -19,7 +19,7 @@ jobs:
           -d text="Good Morning! Let's start the day with a Roody Update!" \
           -d reply_markup='{
             "keyboard":[
-              [{"text":"I'm uploading a Poods Pic! 📷"}],
+              [{"text":"Uploading a Poods Pic! 📷"}],
               [{"text":"A Poods Picture Please! 🐕‍🦺"}]
             ],
             "one_time_keyboard":true,
