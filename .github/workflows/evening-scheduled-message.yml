@@ -2,7 +2,7 @@ name: Scheduled Telegram Message
 
 on:
   schedule:
-    - cron: '0 21 * * *' # This cron schedule runs every day at 21:00 UTC (21:00 SGT)
+    - cron: '0 13 * * *' # This cron schedule runs every day at 13:00 UTC (21:00 SGT)
   workflow_dispatch: # This allows the workflow to be manually triggered
 
 jobs:
