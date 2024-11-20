@@ -14,7 +14,7 @@ This bot is named after my dog, Roody, and was created due to me being away on a
 ## Plans
 
 -   [x] Bot added into a channel
--   [x] Bot's message every 10am SGT
+-   [x] Bot's message every 10am and 10pm SGT
 
 ### Possible extensions:
 **Pick a Poods!**
